@@ -1,12 +1,20 @@
 ![logo](https://github.com/user-attachments/assets/0d41b803-968a-41a8-809a-0dd3d91ec489)
 
-## 1. Initialising the SDK
+## 1. Include the script inside the head tag
+
+```html
+<head>
+  <script src="/your_path/trackmyuser.js"></script>
+</head>
+```
+
+## 2. Initialising the SDK
 
 ```js
 window.TrackMyUser.init("YOUR_SDK_KEY")
 ```
 
-## 2. Event Tracking
+## 3. Event Tracking
 
 ```js
 var event = new window.TrackMyUserEvent("YOUR_EVENT_CODE");
